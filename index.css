@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(194, 252, 224);
+}
+
+.gallery {
+  padding: 20px;
+  border: 5px solid #edd8d8;
+  width: 500px;
+  height: 380px;
+  margin: 10px auto;
+}
+
+.big {
+  background-image: url(./img/sample.gif);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 500px;
+  height: 281px;
+  border: 1px dotted #cccccc;
+}
+
+.small {
+  margin-top: 20px;
+}
+
+.small a img {
+  border: none;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.button:hover {
+  cursor: pointer;
+}
